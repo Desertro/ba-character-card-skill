@@ -29,6 +29,7 @@
 - 核实二创素材，区分原作根源、社区梗、历史版本梗与特定AU。
 - 对照成熟角色的资料层次，检查状态、人物记忆、模块接话与角色隔离。
 - 保留版本、导出检索文本、核查本地保存和压缩包，并如实报告缺口。
+- 按 AstrBot 原生人格 / mem_chat、DeepSeek Harness（DSH）、SillyTavern 的实际版本，适配角色提示、会话绑定和检索资料，并验证实际模型请求。
 
 ## 辅助脚本
 
@@ -40,6 +41,12 @@ python skills/ba-character-card/scripts/verify_project.py --help
 ```
 
 输入格式、参数与平台适配说明见[交付与验证参考](skills/ba-character-card/references/handoff-and-validation.md)。导出器需要已规范化 JSONL；它不是无需适配的数据爬虫，也不保证能直接安装任意平台角色卡。
+
+## 平台适配
+
+[平台适配参考](skills/ba-character-card/references/agent-platform-adaptation.md)包含 AstrBot 原生人格与 mem_chat 分支、DSH 官方 persona 预设及酒馆兼容插件分支、SillyTavern 字段映射与世界书配置，以及跨角色 / 跨会话验收。DSH 示例固定了核对时的源码提交，其他版本先核对实际 schema。
+
+另附 [SillyTavern V2 JSON 模板](skills/ba-character-card/assets/sillytavern_v2.template.json)，供制作成品时填写；模板不含官方语料，不是成品角色卡或完整前端配置。平台说明与模板的结构检查不等于已在这些平台逐一部署或实聊。
 
 ## 验证
 

@@ -1,6 +1,6 @@
 ---
 name: ba-character-card
-description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设与配套资料：核实原作台词、参考卡和二创梗，整理剧情记忆、关系、口吻及目标平台交付。适用于从资料采集到可追溯人设的制作任务，不用于普通角色问答或未经请求切换运行中的机器人。
+description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设与配套资料：核实原作台词、参考卡和二创梗，整理剧情记忆、关系、口吻，并适配 AstrBot、mem_chat、DSH 或 SillyTavern。适用于从资料采集到可追溯人设的制作任务，不用于普通角色问答或未经请求切换运行中的机器人。
 ---
 
 # BA 角色卡制作
@@ -17,7 +17,8 @@ description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设�
 
 - 找卡、收集“所有台词”、核对快照与覆盖：读 [references/sources-and-corpus.md](references/sources-and-corpus.md)。
 - 写人设、补背景关系、对比成熟角色、补二创梗：读 [references/persona-and-memes.md](references/persona-and-memes.md)。
-- 导出检索文本、适配 mem_chat、验证与打包：读 [references/handoff-and-validation.md](references/handoff-and-validation.md)。
+- 接入 AstrBot 原生人格、mem_chat、DSH 或 SillyTavern：读 [references/agent-platform-adaptation.md](references/agent-platform-adaptation.md)，先确认宿主版本和目标会话，再按需适配。
+- 导出检索文本、文件验证与打包：读 [references/handoff-and-validation.md](references/handoff-and-validation.md)。
 
 ## 制作路径
 

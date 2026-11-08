@@ -2,6 +2,8 @@
 
 ## 目标平台
 
+AstrBot 原生人格、mem_chat、DSH 与 SillyTavern 的配置位置、字段映射、模板及在线验收见 [平台适配参考](agent-platform-adaptation.md)。先选用户实际使用的平台，不把一种宿主的控制协议套给另一种。
+
 纯文本基础人设可以先单独交付。SillyTavern导入卡应核对用户要求的卡版本与字段；不能把OpenHanako代理包直接称为同格式可导入卡。
 
 mem_chat等插件的主提示之外可能还有state_rules、focus／at／read_air提示、人物印象和persona_rag。检查当前安装版本的实际代码及说明，不能假定本次项目的路径或实现永远相同。资料已导出与线上可运行是不同结果。

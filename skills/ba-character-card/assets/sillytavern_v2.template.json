@@ -1,0 +1,49 @@
+{
+  "spec": "chara_card_v2",
+  "spec_version": "2.0",
+  "data": {
+    "name": "角色名",
+    "description": "填写已核实的身份、外貌、默认剧情阶段、重要经历和人物关系。",
+    "personality": "填写角色的动机、判断习惯、说话方式和情绪特点。",
+    "scenario": "填写当前见面场景；对话对象身份尚未确认时不预设为老师或恋人。",
+    "first_mes": "你好。",
+    "mes_example": "<START>\n{{user}}: 可以聊一会儿吗？\n{{char}}: 可以。你想聊什么？",
+    "creator_notes": "通用结构模板，不是成品角色卡，不含官方原文。对话为新写示范；制作成品时填写角色资料、改编说明与来源。",
+    "system_prompt": "",
+    "post_history_instructions": "",
+    "alternate_greetings": [],
+    "character_book": {
+      "name": "角色资料",
+      "description": "替换为目标角色的精选资料。",
+      "scan_depth": 4,
+      "token_budget": 600,
+      "recursive_scanning": false,
+      "extensions": {},
+      "entries": [
+        {
+          "id": 0,
+          "keys": [
+            "角色名"
+          ],
+          "secondary_keys": [],
+          "content": "替换为一条自足的角色资料，正文保留阶段、说话人和必要来源。",
+          "extensions": {},
+          "enabled": true,
+          "insertion_order": 100,
+          "case_sensitive": false,
+          "name": "资料条目",
+          "comment": "填写取材出处。",
+          "selective": false,
+          "constant": false,
+          "position": "before_char"
+        }
+      ]
+    },
+    "tags": [
+      "Blue Archive"
+    ],
+    "creator": "",
+    "character_version": "1.0",
+    "extensions": {}
+  }
+}
