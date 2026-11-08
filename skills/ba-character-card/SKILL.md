@@ -18,6 +18,7 @@ description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设�
 - 找卡、收集“所有台词”、核对快照与覆盖：读 [references/sources-and-corpus.md](references/sources-and-corpus.md)。
 - 写人设、补背景关系、对比成熟角色、补二创梗：读 [references/persona-and-memes.md](references/persona-and-memes.md)。
 - 接入 AstrBot 原生人格、mem_chat、DSH 或 SillyTavern：读 [references/agent-platform-adaptation.md](references/agent-platform-adaptation.md)，先确认宿主版本和目标会话，再按需适配。
+- 处理 mem_chat 成人模式 / NSFW 入口、会话白名单或状态规则：先读平台适配参考中的“mem_chat 的 NSFW / 成人模式提示词入口”，核对 profile gate、实际选中的 `at` / `focus:*` 规则和运行时是否被降级。
 - 导出检索文本、文件验证与打包：读 [references/handoff-and-validation.md](references/handoff-and-validation.md)。
 
 ## 制作路径
