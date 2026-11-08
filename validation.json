@@ -1,0 +1,19 @@
+{
+  "skill_format_validation": "passed",
+  "script_checks": {
+    "real_export_succeeds": true,
+    "old_phase_preserved": true,
+    "teacher_multi_choices_labelled": true,
+    "other_speaker_identified": true,
+    "momo_graph_preserved": true,
+    "sources_preserved": true,
+    "overwrite_refused": true,
+    "missing_flag_rejected": true,
+    "joint_speech_distinct": true,
+    "integrity_success": true,
+    "tampering_detected": true,
+    "real_50_sources_and_zip_verified": true,
+    "no_raw_or_private_assets_in_skill": true
+  },
+  "scope": "Local artifact behavior and integrity; no live deployment or chat evaluation."
+}
