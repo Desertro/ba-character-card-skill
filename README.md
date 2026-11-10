@@ -2,7 +2,7 @@
 
 把《蔚蓝档案》的原作台词、剧情、人物关系和二创梗，整理成有来源、能继续维护、适合目标聊天平台的人设。
 
-这是一个可复用的 **Codex 技能（Skill）**。它提供资料整理、角色塑造、平台适配和交付核查的工作流，也附带检索文本导出与文件验证脚本。适合从零制作角色卡，或给已有机器人补剧情记忆、人物关系与知识库。
+这是一个可复用的 **Codex 技能（Skill）**。它提供资料整理、角色塑造、平台适配和交付核查的工作流，也附带检索文本导出、离线立绘表情构建与文件验证脚本。适合从零制作角色卡，或给已有机器人补剧情记忆、人物关系与知识库。
 
 **快速入口：** [技能正文](skills/ba-character-card/SKILL.md) · [平台接入说明](skills/ba-character-card/references/agent-platform-adaptation.md) · [交付与验证](skills/ba-character-card/references/handoff-and-validation.md)
 
@@ -16,6 +16,8 @@
 - **保留可追溯交付：** 保存版本、来源与缺口，导出检索文本，核查归档及压缩包，便于后续修订。
 
 原作原句、作者新写的对话示例和二创设定分别标记。资料覆盖范围以实际取得的来源与快照为准。
+
+- **构建立绘表情：** 透明裁切、局部脸红派生、情绪分类和来源追溯；参数化脚本附历史实例配方，不附原作图片。
 
 ## 支持哪些平台
 
@@ -152,3 +154,8 @@ python skills/ba-character-card/scripts/verify_project.py --help
 本仓库保存通用技能、脚本和必要模板，不包含游戏原文全集、第三方角色卡原包、个人聊天记忆、账号配置或凭据。使用第三方资料时保留来源，并遵循对应资料的使用条件。
 
 制作资料、生成草稿与切换运行中的机器人分别处理。技能的使用不自动授权外部发布、发送消息、修改运行数据库或切换角色；已有明确授权时，按授权范围完成工作。
+
+
+## 构建角色表情包
+
+见 [立绘表情与 App 接入](skills/ba-character-card/references/expression-stickers.md)。可用 `scripts/build_expression_stickers.py` 配合 `assets/momotalk-expression-recipe.json`，从本地原图离线生成 36 张示例差分、预览、catalog、来源清单和独立 ZIP。配方可修改为其他角色／服装，脚本不联网，不包含游戏立绘或第三方角色卡。依赖 Python 3.10+ 和 Pillow。

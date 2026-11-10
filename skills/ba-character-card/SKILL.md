@@ -1,6 +1,6 @@
 ---
 name: ba-character-card
-description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设与配套资料：核实原作台词、参考卡和二创梗，整理剧情记忆、关系、口吻，并适配 AstrBot、mem_chat、DSH 或 SillyTavern。适用于从资料采集到可追溯人设的制作任务，不用于普通角色问答或未经请求切换运行中的机器人。
+description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设与配套资料：核实原作台词、参考卡和二创梗，整理剧情记忆、关系、口吻和可追溯的立绘表情包，并适配 AstrBot、mem_chat、DSH 或 SillyTavern。适用于从资料采集到可追溯人设的制作任务，不用于普通角色问答或未经请求切换运行中的机器人。
 ---
 
 # BA 角色卡制作
@@ -19,6 +19,7 @@ description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设�
 - 写人设、补背景关系、对比成熟角色、补二创梗：读 [references/persona-and-memes.md](references/persona-and-memes.md)。
 - 接入 AstrBot 原生人格、mem_chat、DSH 或 SillyTavern：读 [references/agent-platform-adaptation.md](references/agent-platform-adaptation.md)，先确认宿主版本和目标会话，再按需适配。
 - 处理 mem_chat 成人模式 / NSFW 入口、会话白名单或状态规则：先读平台适配参考中的“mem_chat 的 NSFW / 成人模式提示词入口”，核对 profile gate、实际选中的 `at` / `focus:*` 规则和运行时是否被降级。
+- 构建立绘表情、脸红派生、修正情绪分类并接入聊天 App：读 [references/expression-stickers.md](references/expression-stickers.md)。
 - 导出检索文本、文件验证与打包：读 [references/handoff-and-validation.md](references/handoff-and-validation.md)。
 
 ## 制作路径
@@ -31,6 +32,8 @@ description: 为《蔚蓝档案》角色制作或修订角色卡、聊天人设�
 6. **交付与核查。** 保留旧版本，输出本轮成品、取材说明、来源清单、缺口与核查记录。正文里的新写示例和官方原句分开标记。检查文件和压缩包，不以“已下载”替代“已取得完整卡定义”，也不以“已导出”替代“已在线接入”。
 
 ## 辅助脚本
+
+`python scripts/build_expression_stickers.py --help`：从已取得的透明立绘按 JSON 配方离线构建表情、预览、来源清单和独立 ZIP；可选局部脸红派生，不联网、不修改宿主或角色卡。
 
 `python scripts/export_persona_rag.py --help`：从已经规范化的本地 JSONL 导出带说话人、分支、语言与来源的检索文本；不是游戏数据通用爬虫。映射与调用见交付参考。
 

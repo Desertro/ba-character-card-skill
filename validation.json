@@ -15,5 +15,17 @@
     "real_50_sources_and_zip_verified": true,
     "no_raw_or_private_assets_in_skill": true
   },
-  "scope": "Local artifact behavior and integrity; no live deployment or chat evaluation."
+  "scope": "Local artifact behavior, image reconstruction and integrity; no live deployment or real model chat evaluation.",
+  "expression_build_checks": {
+    "date": "2026-11-11",
+    "synthetic_behavior_tests": 4,
+    "tests_passed": true,
+    "real_cached_recipe_images": 36,
+    "all_36_app_images_byte_identical": true,
+    "zip_crc_and_no_raw_portraits": true,
+    "source_hash_path_and_cross_pack_rejection": true,
+    "existing_output_protected": true,
+    "failed_build_leaves_no_output": true,
+    "no_game_images_cards_memories_or_credentials_in_skill": true
+  }
 }

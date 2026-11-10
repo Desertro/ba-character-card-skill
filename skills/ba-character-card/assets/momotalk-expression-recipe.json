@@ -1,0 +1,867 @@
+{
+  "retrieved": "2026-11-10",
+  "note": "Historical recipe only. Supply your own source images; no images distributed in this skill.",
+  "packs": [
+    {
+      "key": "alice",
+      "name": "天童爱丽丝",
+      "aliases": [
+        "天童爱丽丝",
+        "爱丽丝",
+        "Alice",
+        "Aris",
+        "Arisu"
+      ],
+      "sourceHashes": [
+        "73c3b637bd8eca0ae6276a2165556b0bba72626007ad5542aadded5b7c677b6e",
+        "f79963c5b6da816d01fc3fd91b8b9f7ab3a12f6786ec8d655fbc13a5f077956e"
+      ]
+    },
+    {
+      "key": "noa",
+      "name": "生盐诺亚",
+      "aliases": [
+        "生盐诺亚",
+        "诺亚",
+        "Noa"
+      ],
+      "sourceHashes": [
+        "1ab3809be49d96d23900e57cfba260bb68f8039c64715af5646d6a7282d3ebc4",
+        "36140b8aacdb1215eef6741f4743865009afb5f244214a8912d0ae0aaf38afb8"
+      ]
+    },
+    {
+      "key": "rio",
+      "name": "调月莉音",
+      "aliases": [
+        "调月莉音",
+        "莉音",
+        "Rio"
+      ],
+      "sourceHashes": [
+        "b9c958a9419cf9c398b5b635a4821c83186eb096242ae040a1c5747acf4eae09",
+        "9063bd96f334ee7367432fb43e2c89bea2d1efec6a732d4460d1addc9bd3deba"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "alice_01",
+      "pack": "alice",
+      "label": "认真听讲",
+      "tags": [
+        "倾听",
+        "认真"
+      ],
+      "source": "Alice_Portrait_Expression_1.png",
+      "sourceSha256": "9d040e48ff039f929b0887bb32ef23b20c26cba991df0563cc2f2a422f1f6141",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/7/7d/Alice_Portrait_Expression_1.png/revision/latest?cb=20231229100723",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_1.png",
+      "expectedOutputSha256": "8479fc7ca9e63d7eb2b890ef31cf5d68cf59746436a37431ef540aa5e47ce1fd"
+    },
+    {
+      "id": "alice_02",
+      "pack": "alice",
+      "label": "收到",
+      "tags": [
+        "回应",
+        "平静"
+      ],
+      "source": "Alice_Portrait_Expression_2.png",
+      "sourceSha256": "fffbc57edbb77fbffdd6eea9f051cc474e14f098de178e2fc2b62043076bf7b0",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/c/cd/Alice_Portrait_Expression_2.png/revision/latest?cb=20231229100701",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_2.png",
+      "expectedOutputSha256": "3f33a6924b30535e62466907715214d6f5bf8bfee273b1fab28e6e9b930fe494"
+    },
+    {
+      "id": "alice_03",
+      "pack": "alice",
+      "label": "诶",
+      "tags": [
+        "惊讶",
+        "疑惑"
+      ],
+      "source": "Alice_Portrait_Expression_3.png",
+      "sourceSha256": "f0d1a4ef79bccd784a691c4f1aa8b3eaf64477f17401e63570611cb6c611d8e5",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/e/e3/Alice_Portrait_Expression_3.png/revision/latest?cb=20231229100708",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_3.png",
+      "expectedOutputSha256": "59e18ac2cafbaaa771470e09e3b28dfb3f712c2c7492dd597bcb62d845389b8f"
+    },
+    {
+      "id": "alice_04",
+      "pack": "alice",
+      "label": "有点担心",
+      "tags": [
+        "担心",
+        "不安"
+      ],
+      "source": "Alice_Portrait_Expression_4.png",
+      "sourceSha256": "761294960d5dc8962f15378e716726f1aa65eb4b61c5f84a8d2be2485ac2a464",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/b0/Alice_Portrait_Expression_4.png/revision/latest?cb=20231229100717",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_4.png",
+      "expectedOutputSha256": "b593d5116245bbbf371c34fc9da01852b0fc550d23ba1ab83d71989dee51304a"
+    },
+    {
+      "id": "alice_05",
+      "pack": "alice",
+      "label": "爱丽丝明白了",
+      "tags": [
+        "思考",
+        "理解"
+      ],
+      "source": "Alice_Portrait_Expression_5.png",
+      "sourceSha256": "6005e5149601fd354e83f275a9b1ec37d1d958b77f9587d59e7c7b38ccd402d8",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/b3/Alice_Portrait_Expression_5.png/revision/latest?cb=20231229100653",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_5.png",
+      "expectedOutputSha256": "9edf51ee3be851e2cf66e9923e7f8ee6220ec0eda6a3420f1bd59943738539c8"
+    },
+    {
+      "id": "alice_06",
+      "pack": "alice",
+      "label": "勇者加油",
+      "tags": [
+        "鼓励",
+        "期待"
+      ],
+      "source": "Alice_Portrait_Expression_6.png",
+      "sourceSha256": "151e434d75feb3fab4264633990601365a54e133321c29f8d2306cdca3d4512f",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/6/67/Alice_Portrait_Expression_6.png/revision/latest?cb=20231229100656",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_6.png",
+      "expectedOutputSha256": "27cec826236416c74126c52bff7045fbcf2760ce8d01df8d3a62dbff1a2582c3"
+    },
+    {
+      "id": "alice_07",
+      "pack": "alice",
+      "label": "开心",
+      "tags": [
+        "高兴",
+        "笑"
+      ],
+      "source": "Alice_Portrait_Expression_7.png",
+      "sourceSha256": "25c2676576355799906a7b4f37a881011f291dc78d8fb268ce14503956469608",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/5/56/Alice_Portrait_Expression_7.png/revision/latest?cb=20231229100639",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_7.png",
+      "expectedOutputSha256": "f4066d0eb232a42aaf3f38954139db918ebc6d8a7e84df335df7c4e2d3e5c748"
+    },
+    {
+      "id": "alice_08",
+      "pack": "alice",
+      "label": "感动得含泪微笑",
+      "tags": [
+        "感动",
+        "喜极而泣",
+        "含泪微笑",
+        "感谢"
+      ],
+      "source": "Alice_Portrait_Expression_8.png",
+      "sourceSha256": "283d1e57355e11b232260e3ea38cd2f0e316324147f44f9f735d95210a748908",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/b6/Alice_Portrait_Expression_8.png/revision/latest?cb=20231229100644",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_8.png",
+      "expectedOutputSha256": "f30ade9f82697062dc7a1b6aa89acd098bea0e659c489e90e78a9b5fd803bb32"
+    },
+    {
+      "id": "alice_09",
+      "pack": "alice",
+      "label": "这样吗",
+      "tags": [
+        "惊讶",
+        "呆萌"
+      ],
+      "source": "Alice_Portrait_Expression_9.png",
+      "sourceSha256": "8a6971dad87b20cc62fd698f28a47a8a5b0518fed0e9ae573801463cd44aa560",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/0/01/Alice_Portrait_Expression_9.png/revision/latest?cb=20231229100648",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_9.png",
+      "expectedOutputSha256": "a0661a9141cccc990246e106c1f167c8493c9a62d2ccb4c7fd92fd336946b724"
+    },
+    {
+      "id": "alice_10",
+      "pack": "alice",
+      "label": "呜",
+      "tags": [
+        "难过",
+        "委屈"
+      ],
+      "source": "Alice_Portrait_Expression_10.png",
+      "sourceSha256": "ebea4f02812482f21b25d1054745a9754abbed68dc56cb09306f066fa18b91fe",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/6/67/Alice_Portrait_Expression_10.png/revision/latest?cb=20231229100633",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_10.png",
+      "expectedOutputSha256": "6740a9a7e60937519ae1c062e025049ad1365a74f61e6c8327c43f1c04071911"
+    },
+    {
+      "id": "alice_11",
+      "pack": "alice",
+      "label": "认真模式",
+      "tags": [
+        "坚定",
+        "专注"
+      ],
+      "source": "Alice_Portrait_Expression_11.png",
+      "sourceSha256": "c9b0d0984d659bca57c4c2ff5d5e90e4ad48d4d77bfc2fd6070be82eb4145433",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Alice_Portrait_Expression_11.png/revision/latest?cb=20231229100628",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_11.png",
+      "expectedOutputSha256": "93b60c0a6195289a5102eddad25a2697a4e4caf6d7f3d402b3d64f9678ca662d"
+    },
+    {
+      "id": "alice_99",
+      "pack": "alice",
+      "label": "闭眼休息",
+      "tags": [
+        "平静",
+        "休息"
+      ],
+      "source": "Alice_Portrait_Expression_99.png",
+      "sourceSha256": "2e8d2177350288acb65de53cd341f82c3ceac457fffbc913c510dce7f387f549",
+      "crop": [
+        620,
+        10,
+        1276,
+        666
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/e/e7/Alice_Portrait_Expression_99.png/revision/latest?cb=20231229100622",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Alice_Portrait_Expression_99.png",
+      "expectedOutputSha256": "1faf2002d3e7436fce465940488a0d5739aaa60d033d6a03f2d31a72ce54e9d8"
+    },
+    {
+      "id": "alice_blush_shy",
+      "pack": "alice",
+      "label": "脸红害羞",
+      "tags": [
+        "脸红",
+        "害羞",
+        "不好意思",
+        "紧张",
+        "被夸奖"
+      ],
+      "variantOf": "alice_06",
+      "cheekCenters": [
+        [
+          213,
+          304
+        ],
+        [
+          306,
+          304
+        ]
+      ],
+      "overlay": {
+        "radius": [
+          22,
+          10
+        ],
+        "rgb": [
+          243,
+          106,
+          139
+        ],
+        "strength": 0.39
+      },
+      "expectedOutputSha256": "a4c2620078a7afc4c24949bfa1cb50bf7922cd2efe42306a244dfc7dee86ea2a"
+    },
+    {
+      "id": "alice_blush_smile",
+      "pack": "alice",
+      "label": "害羞微笑",
+      "tags": [
+        "脸红",
+        "害羞",
+        "不好意思",
+        "微笑",
+        "开心"
+      ],
+      "variantOf": "alice_07",
+      "cheekCenters": [
+        [
+          213,
+          304
+        ],
+        [
+          306,
+          304
+        ]
+      ],
+      "overlay": {
+        "radius": [
+          22,
+          10
+        ],
+        "rgb": [
+          243,
+          106,
+          139
+        ],
+        "strength": 0.39
+      },
+      "expectedOutputSha256": "4414c48c9fa2796f3dc3d762bdcb8d770d6d361b4a2c5552d7d1c6ee180e934f"
+    },
+    {
+      "id": "noa_01",
+      "pack": "noa",
+      "label": "听你说",
+      "tags": [
+        "倾听",
+        "平静"
+      ],
+      "source": "Noa_Portrait_Expression_1.png",
+      "sourceSha256": "5ecfc660df2c2d1b0dc6f91807442bfed1b1b8230c18612ac382ee8e169ff399",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/ba/Noa_Portrait_Expression_1.png/revision/latest?cb=20231229132250",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_1.png",
+      "expectedOutputSha256": "2715f5d0bf256585d80c87edc5d3eb1d795d8e06e4f40072988858dc6e409cf7"
+    },
+    {
+      "id": "noa_02",
+      "pack": "noa",
+      "label": "让我想想",
+      "tags": [
+        "思考",
+        "认真"
+      ],
+      "source": "Noa_Portrait_Expression_2.png",
+      "sourceSha256": "edaa101e0538d03ec456179c6e79bc5bb0bd4810b39e65db10a3543c783ab066",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/a/af/Noa_Portrait_Expression_2.png/revision/latest?cb=20231229132318",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_2.png",
+      "expectedOutputSha256": "8657fc41accf97e35f0d0b8dad5f062a408549a7f8818f2c5238d83b00916592"
+    },
+    {
+      "id": "noa_03",
+      "pack": "noa",
+      "label": "笑眯眯",
+      "tags": [
+        "高兴",
+        "温柔"
+      ],
+      "source": "Noa_Portrait_Expression_3.png",
+      "sourceSha256": "13317564fe4b4f9d624d2bf0613beb41548da2571dca0cb5f2873c18163519bc",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/4/4a/Noa_Portrait_Expression_3.png/revision/latest?cb=20231229132243",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_3.png",
+      "expectedOutputSha256": "8fa369f63011f4ce6e08f83d0470410e7bdf6005cb5dd57b68166c9975cb8d37"
+    },
+    {
+      "id": "noa_04",
+      "pack": "noa",
+      "label": "诶",
+      "tags": [
+        "惊讶",
+        "疑惑"
+      ],
+      "source": "Noa_Portrait_Expression_4.png",
+      "sourceSha256": "bf65acd1fdf188dd56b710d1244d7e9f816f2efcfef3fb824c40c13ee333029f",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/5/50/Noa_Portrait_Expression_4.png/revision/latest?cb=20231229132245",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_4.png",
+      "expectedOutputSha256": "0419fc8a2873c11e4d3cb85d4927f0523a4cd4e4ec31b2fa32793a66309f5b20"
+    },
+    {
+      "id": "noa_05",
+      "pack": "noa",
+      "label": "有点为难",
+      "tags": [
+        "担心",
+        "为难"
+      ],
+      "source": "Noa_Portrait_Expression_5.png",
+      "sourceSha256": "e1277e6061417f2dc209144e02314eb5bfdd2413970a555ee850fdf526624f8a",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/d/da/Noa_Portrait_Expression_5.png/revision/latest?cb=20231229132247",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_5.png",
+      "expectedOutputSha256": "102f868f06bcd69c6a67e19ba669cc375448b44a1dae3552e6bdd772b49a11be"
+    },
+    {
+      "id": "noa_06",
+      "pack": "noa",
+      "label": "真拿你没办法",
+      "tags": [
+        "笑",
+        "无奈"
+      ],
+      "source": "Noa_Portrait_Expression_6.png",
+      "sourceSha256": "07ce80fe5daace7f0eb4e43d3bd291f2ab0e15a7b4f9d209b86ca5b64e7e15a4",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/f/fc/Noa_Portrait_Expression_6.png/revision/latest?cb=20231229132236",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_6.png",
+      "expectedOutputSha256": "943060fa371e9abec903a10c8f308aafbc553c03fb77bf49a8595088abaa8e93"
+    },
+    {
+      "id": "noa_07",
+      "pack": "noa",
+      "label": "小小在意",
+      "tags": [
+        "认真",
+        "在意"
+      ],
+      "source": "Noa_Portrait_Expression_7.png",
+      "sourceSha256": "de59f21839881358fb05a3b39942eeb29e99d7d792e0d6b1a7bbec1c4624c063",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/7/7a/Noa_Portrait_Expression_7.png/revision/latest?cb=20231229132238",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_7.png",
+      "expectedOutputSha256": "a13dded7ea436e06e5a0585bc2e590715134a92156265eb198b6ec560731f2eb"
+    },
+    {
+      "id": "noa_99",
+      "pack": "noa",
+      "label": "闭眼微笑",
+      "tags": [
+        "平静",
+        "温柔"
+      ],
+      "source": "Noa_Portrait_Expression_99.png",
+      "sourceSha256": "03fac4212274e864766d2e2ecc7a2b5e2c7bf48d4c670edc1b4938aad2fc6225",
+      "crop": [
+        176,
+        10,
+        956,
+        790
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/5/54/Noa_Portrait_Expression_99.png/revision/latest?cb=20231229132241",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Noa_Portrait_Expression_99.png",
+      "expectedOutputSha256": "86df40d45e04203e64a8b1336edc93cc1a1f7bdf138f1c20f43b80c0bfcf3cd1"
+    },
+    {
+      "id": "noa_blush_shy",
+      "pack": "noa",
+      "label": "脸红害羞",
+      "tags": [
+        "脸红",
+        "害羞",
+        "不好意思",
+        "紧张",
+        "被夸奖"
+      ],
+      "variantOf": "noa_07",
+      "cheekCenters": [
+        [
+          182,
+          260
+        ],
+        [
+          260,
+          268
+        ]
+      ],
+      "overlay": {
+        "radius": [
+          22,
+          10
+        ],
+        "rgb": [
+          243,
+          106,
+          139
+        ],
+        "strength": 0.39
+      },
+      "expectedOutputSha256": "78dc6936ccadded92c2df7623cef72ee37fd8623d13ce6935240c83977110942"
+    },
+    {
+      "id": "noa_blush_smile",
+      "pack": "noa",
+      "label": "害羞微笑",
+      "tags": [
+        "脸红",
+        "害羞",
+        "不好意思",
+        "微笑",
+        "开心"
+      ],
+      "variantOf": "noa_03",
+      "cheekCenters": [
+        [
+          182,
+          260
+        ],
+        [
+          260,
+          268
+        ]
+      ],
+      "overlay": {
+        "radius": [
+          22,
+          10
+        ],
+        "rgb": [
+          243,
+          106,
+          139
+        ],
+        "strength": 0.39
+      },
+      "expectedOutputSha256": "3465c8b6bca4132ffaf7aae1eeb9caf25a5e64fe923392990ee2152fc7af3d63"
+    },
+    {
+      "id": "rio_01",
+      "pack": "rio",
+      "label": "认真",
+      "tags": [
+        "严肃",
+        "平静"
+      ],
+      "source": "Rio_Portrait_Expression_1.png",
+      "sourceSha256": "0bcde30a263798f555f8e1251a123d813eb5d0d2b4964ccbd1ea80864d5a97f7",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/6/67/Rio_Portrait_Expression_1.png/revision/latest?cb=20231228142948",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_1.png",
+      "expectedOutputSha256": "107368cae62cd75b849653d6c201bd0da716e38307697a992e1311176d0d1ca8"
+    },
+    {
+      "id": "rio_02",
+      "pack": "rio",
+      "label": "说明一下",
+      "tags": [
+        "解释",
+        "认真"
+      ],
+      "source": "Rio_Portrait_Expression_2.png",
+      "sourceSha256": "152680f01e48bca1ddd2f6be845c3d3640b8da33774b35e5d7f184ab848b3552",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Rio_Portrait_Expression_2.png/revision/latest?cb=20231228142951",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_2.png",
+      "expectedOutputSha256": "df1879233314be0e796d184d3534838c820021cee23fc7116b3d9b600c759574"
+    },
+    {
+      "id": "rio_03",
+      "pack": "rio",
+      "label": "微笑",
+      "tags": [
+        "高兴",
+        "认同"
+      ],
+      "source": "Rio_Portrait_Expression_3.png",
+      "sourceSha256": "7d0ffc528091572817255e73d3e3806e315101c3ec965475f6602f312ee9c467",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/d/d0/Rio_Portrait_Expression_3.png/revision/latest?cb=20231228142953",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_3.png",
+      "expectedOutputSha256": "82f22756bc52e7a47cbde57bc46708cfa1bb9bfdef55447d7b6df5fcb23a6e9f"
+    },
+    {
+      "id": "rio_04",
+      "pack": "rio",
+      "label": "这样啊",
+      "tags": [
+        "疑惑",
+        "意外"
+      ],
+      "source": "Rio_Portrait_Expression_4.png",
+      "sourceSha256": "7a3e62bd8513e427f271a7199f936e93a30fd016bb2f91f2d38b0b34c451fe7f",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/c/ce/Rio_Portrait_Expression_4.png/revision/latest?cb=20231228142939",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_4.png",
+      "expectedOutputSha256": "14790145d3fd79fcd7775a0e6d37bb48bb75405d96a57cce26adf908af1581df"
+    },
+    {
+      "id": "rio_05",
+      "pack": "rio",
+      "label": "有点为难",
+      "tags": [
+        "担心",
+        "为难"
+      ],
+      "source": "Rio_Portrait_Expression_5.png",
+      "sourceSha256": "f9bf12da4fd509b80a5629a84fd53768d2e5b95106e6e71cdf6c530028bc9a0e",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/1/1f/Rio_Portrait_Expression_5.png/revision/latest?cb=20231228142942",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_5.png",
+      "expectedOutputSha256": "4829539078a8d52cd5a075627286fec68d4106401c1e2fc0be782251b20f09ae"
+    },
+    {
+      "id": "rio_06",
+      "pack": "rio",
+      "label": "让我想想",
+      "tags": [
+        "思考",
+        "解释"
+      ],
+      "source": "Rio_Portrait_Expression_6.png",
+      "sourceSha256": "eaf2d21b69cf893025b4fbc2252cc13b8379dfc291c92c36d4825d8d3982b54b",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/8/8c/Rio_Portrait_Expression_6.png/revision/latest?cb=20231228142945",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_6.png",
+      "expectedOutputSha256": "a23a32a805d65585de0a3a52d381b3bae5a10fcdb10643be98a8c42c79e638cb"
+    },
+    {
+      "id": "rio_07",
+      "pack": "rio",
+      "label": "严肃提醒",
+      "tags": [
+        "严肃",
+        "在意"
+      ],
+      "source": "Rio_Portrait_Expression_7.png",
+      "sourceSha256": "64381c404ca58c37af1de69f768ce36a438d85f2c8ac1249e5dd8e3896448b7b",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/1/1a/Rio_Portrait_Expression_7.png/revision/latest?cb=20231228142929",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_7.png",
+      "expectedOutputSha256": "1726111bac622a4226a0016e8667b6c2751174f5420c4af1fffae6c26b96bb76"
+    },
+    {
+      "id": "rio_08",
+      "pack": "rio",
+      "label": "开心",
+      "tags": [
+        "笑",
+        "高兴"
+      ],
+      "source": "Rio_Portrait_Expression_8.png",
+      "sourceSha256": "72d587c7d4cfb240eb5998e1c1f385fbaeb0c01657cb86d8eda5bf06e9e1343e",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/6/62/Rio_Portrait_Expression_8.png/revision/latest?cb=20231228142932",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_8.png",
+      "expectedOutputSha256": "50a874958a879eb7c9e19585d4fe0485b0fa116b59ec8e19a65797af95410814"
+    },
+    {
+      "id": "rio_09",
+      "pack": "rio",
+      "label": "有个好主意",
+      "tags": [
+        "得意",
+        "期待"
+      ],
+      "source": "Rio_Portrait_Expression_9.png",
+      "sourceSha256": "b2baa8081b15f391013bb302f4acf2ebee1079b7a38dec7c48a8adc8ff72bb49",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/f/f6/Rio_Portrait_Expression_9.png/revision/latest?cb=20231228142935",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_9.png",
+      "expectedOutputSha256": "a63950750df666ae9908c9a50d8b34ab654c4745e7fdfcfb4912ae266703b984"
+    },
+    {
+      "id": "rio_99",
+      "pack": "rio",
+      "label": "闭眼思考",
+      "tags": [
+        "平静",
+        "思考"
+      ],
+      "source": "Rio_Portrait_Expression_99.png",
+      "sourceSha256": "acfc463377b7ef12b501add29b12ecd98bd710d122e8f365000c29ca212a09a8",
+      "crop": [
+        336,
+        10,
+        1198,
+        872
+      ],
+      "url": "https://static.wikia.nocookie.net/blue-archive/images/b/b8/Rio_Portrait_Expression_99.png/revision/latest?cb=20231228142927",
+      "descriptionUrl": "https://bluearchive.fandom.com/wiki/File:Rio_Portrait_Expression_99.png",
+      "expectedOutputSha256": "ee576078d796f1670cbc29b4df64a4475d26399c566589e53b803ee155f5eb7d"
+    },
+    {
+      "id": "rio_blush_shy",
+      "pack": "rio",
+      "label": "脸红害羞",
+      "tags": [
+        "脸红",
+        "害羞",
+        "不好意思",
+        "紧张",
+        "被夸奖"
+      ],
+      "variantOf": "rio_05",
+      "cheekCenters": [
+        [
+          215,
+          247
+        ],
+        [
+          283,
+          241
+        ]
+      ],
+      "overlay": {
+        "radius": [
+          22,
+          10
+        ],
+        "rgb": [
+          243,
+          106,
+          139
+        ],
+        "strength": 0.39
+      },
+      "expectedOutputSha256": "00358954dca5ae6b9ffd687e7c441e0342815cd5029422ff27103283a7d8b1e0"
+    },
+    {
+      "id": "rio_blush_smile",
+      "pack": "rio",
+      "label": "害羞微笑",
+      "tags": [
+        "脸红",
+        "害羞",
+        "不好意思",
+        "微笑",
+        "开心"
+      ],
+      "variantOf": "rio_03",
+      "cheekCenters": [
+        [
+          215,
+          247
+        ],
+        [
+          283,
+          241
+        ]
+      ],
+      "overlay": {
+        "radius": [
+          22,
+          10
+        ],
+        "rgb": [
+          243,
+          106,
+          139
+        ],
+        "strength": 0.39
+      },
+      "expectedOutputSha256": "6ff36d1a9f1d0d980172fec2381b100f2cea76185836a43d828dc282ba768783"
+    }
+  ]
+}

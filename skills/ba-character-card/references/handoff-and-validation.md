@@ -69,3 +69,8 @@ python scripts/verify_project.py --root PROJECT --manifest source_manifest.json 
 - 对已通过且没有新修改的核查无需不断重跑。真正接入后再验证少量典型聊天，而非用“文件验证通过”代替运行效果。
 
 用户要求发布工作流技能时，技能仓库只放通用指令、参数化脚本与小型必要说明。原作语料、第三方卡包、个人记忆与机器凭据不随技能发布；未得到额外指示不改仓库可见性、运行配置或授予权限。
+
+
+## 立绘表情和 App 素材
+
+立绘裁切、脸红派生、感动／害羞等情绪分类、本人 ID 白名单、历史表情持久化与源码包验证见 [表情构建参考](expression-stickers.md)。使用 `scripts/build_expression_stickers.py` 从已核实的本地原图按配方离线构建，技能本身不附原作图片或完整项目。
